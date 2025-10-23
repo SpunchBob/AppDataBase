@@ -2,19 +2,22 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Markup.Localizer;
 
 namespace AppDataBaseView.MainWindowHandlers
 {
     public class ListBoxItemsHandlers
     {
         public static DataBaseContext? Context { get; set; }
-        public static Window? Window { get; set; }
+        public static MainWindow? Window { get; set; }
         public static DataGrid? Data { get; set; }
 
         public static List<MouseButtonEventHandler> GetHandlers()
@@ -59,6 +62,15 @@ namespace AppDataBaseView.MainWindowHandlers
         {
             if (Data != null && Context != null)
                 Data.ItemsSource = Context.TypesLoads.ToList();
+        }
+
+        public static void ListBoxItem_Selected(object sender, RoutedEventArgs eventArgs) 
+        {
+            if (Window != null)
+            {
+                Scripts.GetCurrent(Window.tablesListBox, Window);
+                Console.WriteLine(Window.Current.ToString());
+            }
         }
 
     }

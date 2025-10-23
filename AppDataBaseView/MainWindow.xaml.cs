@@ -15,7 +15,7 @@ namespace AppDataBaseView
 {
     public partial class MainWindow : Window
     {
-        public static DbSet<dynamic>? current { get; set; }
+        public IQueryable? Current { get; set; }
         public DataBaseContext Context { get; set; } 
 
         public MainWindow()
@@ -23,6 +23,7 @@ namespace AppDataBaseView
             InitializeComponent();
 
             Context = new DataBaseContext();
+            Current = Context.Employees;
 
             MainWindowHandlers.ButtonsHandlers.Context = this.Context;
             MainWindowHandlers.ButtonsHandlers.Data = data;
@@ -30,13 +31,13 @@ namespace AppDataBaseView
 
             MainWindowHandlers.ListBoxItemsHandlers.Context = this.Context;
             MainWindowHandlers.ListBoxItemsHandlers.Data = data;
-            MainWindowHandlers.ListBoxItemsHandlers.Window = Application.Current.MainWindow;
+            MainWindowHandlers.ListBoxItemsHandlers.Window = (MainWindow) Application.Current.MainWindow;
 
             writeButton.Click += MainWindowHandlers.ButtonsHandlers.WriteButton_OnClick;
             changeButton.Click += MainWindowHandlers.ButtonsHandlers.ChangeButton_OnClick;
             deleteButton.Click += MainWindowHandlers.ButtonsHandlers.DeleteButton_OnClick;
 
-            Scripts.AddListBoxHandlers(tablesListBox, MainWindowHandlers.ListBoxItemsHandlers.GetHandlers());
+            Scripts.AddListBoxItemsHandlers(tablesListBox, MainWindowHandlers.ListBoxItemsHandlers.GetHandlers(), MainWindowHandlers.ListBoxItemsHandlers.ListBoxItem_Selected);
         }
     }
 }

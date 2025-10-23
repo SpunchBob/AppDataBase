@@ -3217,23 +3217,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Шура\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Шура\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
       "projectName": "AppDataBaseView",
-      "projectPath": "C:\\Users\\Шура\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
-      "packagesPath": "C:\\Users\\Шура\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Шура\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Шура\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3296,7 +3296,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

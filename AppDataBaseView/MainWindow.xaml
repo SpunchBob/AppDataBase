@@ -146,14 +146,14 @@
                     Content="Изменить"
                     Width="80"
                     Height="32"
-                    Margin="0, 5, 0, 0"/>
+                    Margin="30,8,90,2" Grid.ColumnSpan="2"/>
 
             <Button x:Name="deleteButton"
                     Grid.Column="2"
                     Content="Удалить"
                     Width="80"
                     Height="32"
-                    Margin="0, 5, 0, 0"/>
+                    Margin="40,8,480,2" Grid.ColumnSpan="2"/>
 
         </Grid>
         
@@ -172,22 +172,93 @@
                      Height="320"
                      VerticalAlignment="Top"
                      HorizontalAlignment="Left"
-                     Margin="10, 10, 0, 0">
+                     Margin="10, 10, 0, 0"
+                     SelectedIndex="0">
 
-                <ListBoxItem Content="Сотрудники"
-                             FontSize="16"/>
+                <ListBoxItem FontSize="16">
 
-                <ListBoxItem Content="Перевозки"
-                             FontSize="16"/>
+                    <ListBoxItem.Content>
 
-                <ListBoxItem Content="Грузы"
-                             FontSize="16"/>
+                        <StackPanel Orientation="Horizontal">
 
-                <ListBoxItem Content="Типы авто"
-                             FontSize="16"/>
+                            <CheckBox HorizontalAlignment="Left"
+                                         VerticalAlignment="Center"/>
+                            <Label Content="Работники"
+                                   FontSize="16"/>
 
-                <ListBoxItem Content="Типы грузов"
-                             FontSize="16"/>
+                        </StackPanel>
+                        
+                    </ListBoxItem.Content>
+                    
+                </ListBoxItem>
+
+                <ListBoxItem FontSize="16">
+
+                    <ListBoxItem.Content>
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <CheckBox HorizontalAlignment="Left"
+                                      VerticalAlignment="Center"/>
+                            <Label Content="Перевозки"
+                                   FontSize="16"/>
+
+                        </StackPanel>
+
+                    </ListBoxItem.Content>
+
+                </ListBoxItem>
+
+                <ListBoxItem FontSize="16">
+
+                    <ListBoxItem.Content>
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <CheckBox HorizontalAlignment="Left"
+                                      VerticalAlignment="Center"/>
+                            <Label Content="Грузы"
+                                   FontSize="16"/>
+
+                        </StackPanel>
+
+                    </ListBoxItem.Content>
+
+                </ListBoxItem>
+
+                <ListBoxItem FontSize="16">
+
+                    <ListBoxItem.Content>
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <CheckBox HorizontalAlignment="Left"
+                                      VerticalAlignment="Center"/>
+                            <Label Content="Типы авто"
+                                   FontSize="16"/>
+
+                        </StackPanel>
+
+                    </ListBoxItem.Content>
+
+                </ListBoxItem>
+
+                <ListBoxItem FontSize="16">
+
+                    <ListBoxItem.Content>
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <CheckBox HorizontalAlignment="Left"
+                                      VerticalAlignment="Center"/>
+                            <Label Content="Типы грузов"
+                                   FontSize="16"/>
+
+                        </StackPanel>
+
+                    </ListBoxItem.Content>
+
+                </ListBoxItem>
 
             </ListBox>
 
