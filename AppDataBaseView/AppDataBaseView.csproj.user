@@ -1,4 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="FormWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\employees-pages\EmployeesPageAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\employees-pages\EmployeesPageChange.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\employees-pages\EmployeesPageDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\flights-pages\FlightsPageAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\flights-pages\FlightsPageChange.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\flights-pages\FlightsPageDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\loads-pages\LoadsPageAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\loads-pages\LoadsPageChange.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\loads-pages\LoadsPageDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\SelectionPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\types-auto-pages\TypesAutoPageAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\types-auto-pages\TypesAutoPageChange.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\types-auto-pages\TypesAutoPageDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\types-loads-pages\TypesLoadsPageAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\types-loads-pages\TypesLoadsPageChange.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\types-loads-pages\TypesLoadsPageDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>

@@ -11,5 +11,5 @@ public partial class TypesAuto
 
     public string? Describe { get; set; }
 
-    public virtual ICollection<TypesLoads> TypesLoads { get; set; } = new List<TypesLoads>();
+    public virtual ICollection<TypesLoad> TypesLoads { get; set; } = new List<TypesLoad>();
 }

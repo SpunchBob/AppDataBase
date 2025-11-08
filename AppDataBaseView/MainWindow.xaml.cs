@@ -10,34 +10,34 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using AppDataBaseView.Models;
+using AppDataBaseView.pages.EmployeesPages;
 
 namespace AppDataBaseView
 {
     public partial class MainWindow : Window
     {
-        public IQueryable? Current { get; set; }
-        public DataBaseContext Context { get; set; } 
+        public string? Current { get; set; }
 
         public MainWindow()
         {
             InitializeComponent();
 
-            Context = new DataBaseContext();
-            Current = Context.Employees;
+            MainWindowHandlers.ButtonsHandlers.Data    = data;
+            MainWindowHandlers.ButtonsHandlers._window = (MainWindow)System.Windows.Application.Current.MainWindow;
+            MainWindowHandlers.CheckBoxHandlers.Window = (MainWindow)System.Windows.Application.Current.MainWindow;
+            
+            Scripts.MainWindow = (MainWindow)System.Windows.Application.Current.MainWindow;
 
-            MainWindowHandlers.ButtonsHandlers.Context = this.Context;
-            MainWindowHandlers.ButtonsHandlers.Data = data;
-            MainWindowHandlers.ButtonsHandlers.Window = Application.Current.MainWindow;
+            writeButton.Click   += MainWindowHandlers.ButtonsHandlers.WriteButton_OnClick;
+            changeButton.Click  += MainWindowHandlers.ButtonsHandlers.ChangeButton_OnClick;
+            deleteButton.Click  += MainWindowHandlers.ButtonsHandlers.DeleteButton_OnClick;
+            readButton.Click    += MainWindowHandlers.ButtonsHandlers.ReadButton_OnClick;
+            selection_btn.Click += MainWindowHandlers.ButtonsHandlers.Selection_btn_Click;
 
-            MainWindowHandlers.ListBoxItemsHandlers.Context = this.Context;
-            MainWindowHandlers.ListBoxItemsHandlers.Data = data;
-            MainWindowHandlers.ListBoxItemsHandlers.Window = (MainWindow) Application.Current.MainWindow;
+            Scripts.AppendTablesList(tablesListBox, (MainWindow)Application.Current.MainWindow);
+            // Scripts.AddListBoxItemsHandlers(tablesListBox, MainWindowHandlers.ListBoxItemsHandlers.GetHandlers(), MainWindowHandlers.ListBoxItemsHandlers.ListBoxItem_Selected);
 
-            writeButton.Click += MainWindowHandlers.ButtonsHandlers.WriteButton_OnClick;
-            changeButton.Click += MainWindowHandlers.ButtonsHandlers.ChangeButton_OnClick;
-            deleteButton.Click += MainWindowHandlers.ButtonsHandlers.DeleteButton_OnClick;
-
-            Scripts.AddListBoxItemsHandlers(tablesListBox, MainWindowHandlers.ListBoxItemsHandlers.GetHandlers(), MainWindowHandlers.ListBoxItemsHandlers.ListBoxItem_Selected);
         }
     }
 }

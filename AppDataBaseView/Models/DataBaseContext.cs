@@ -15,22 +15,23 @@ public partial class DataBaseContext : DbContext
     {
     }
 
-    public virtual DbSet<Employees> Employees { get; set; }
+    public virtual DbSet<Employee> Employees { get; set; }
 
-    public virtual DbSet<Flights> Flights { get; set; }
+    public virtual DbSet<Flight> Flights { get; set; }
 
-    public virtual DbSet<Loads> Loads { get; set; }
+    public virtual DbSet<Load> Loads { get; set; }
 
-    public virtual DbSet<TypesAuto> TypesAuto { get; set; }
+    public virtual DbSet<TypesAuto> TypesAutos { get; set; }
 
-    public virtual DbSet<TypesLoads> TypesLoads { get; set; }
+    public virtual DbSet<TypesLoad> TypesLoads { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    => optionsBuilder.UseSqlite("Data Source=C:/main_db.sqlite");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlite("Data Source=C:\\Users\\Шура\\Desktop\\AppDataBase\\AppDataBaseView\\main_db.sqlite");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Employees>(entity =>
+        modelBuilder.Entity<Employee>(entity =>
         {
             entity.HasKey(e => e.EmployeeCode);
 
@@ -48,9 +49,10 @@ public partial class DataBaseContext : DbContext
                 .HasColumnType("CHAR(8)")
                 .HasColumnName("phonenumber");
             entity.Property(e => e.Position).HasColumnName("position");
+           
         });
 
-        modelBuilder.Entity<Flights>(entity =>
+        modelBuilder.Entity<Flight>(entity =>
         {
             entity.HasKey(e => e.FlightCode);
 
@@ -83,7 +85,7 @@ public partial class DataBaseContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull);
         });
 
-        modelBuilder.Entity<Loads>(entity =>
+        modelBuilder.Entity<Load>(entity =>
         {
             entity.HasKey(e => e.LoadCode);
 
@@ -102,12 +104,14 @@ public partial class DataBaseContext : DbContext
         {
             entity.HasKey(e => e.AutoTypeCode);
 
+            entity.ToTable("TypesAuto");
+
             entity.Property(e => e.AutoTypeCode).HasColumnName("auto_type_code");
             entity.Property(e => e.Describe).HasColumnName("describe");
             entity.Property(e => e.Name).HasColumnName("name");
         });
 
-        modelBuilder.Entity<TypesLoads>(entity =>
+        modelBuilder.Entity<TypesLoad>(entity =>
         {
             entity.HasKey(e => e.LoadTypeCode);
 
@@ -121,7 +125,29 @@ public partial class DataBaseContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull);
         });
 
-        OnModelCreatingPartial(modelBuilder);
+        modelBuilder.Entity<Flight>()
+            .HasOne(f => f.EmployeeCodeNavigation)
+            .WithMany(e => e.Flights)
+            .HasForeignKey(f => f.EmployeeCode)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        modelBuilder.Entity<Flight>()
+            .HasOne(f => f.LoadCodeNavigation)
+            .WithMany(l => l.Flights)
+            .HasForeignKey(f => f.LoadCode)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        modelBuilder.Entity<TypesAuto>()
+            .HasMany(ta => ta.TypesLoads)
+            .WithOne(tl => tl.AutoTypeCodeNavigation)
+            .HasForeignKey(tl => tl.AutoTypeCode)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        modelBuilder.Entity<TypesLoad>()
+            .HasMany(tl => tl.Loads)
+            .WithOne(l => l.LoadTypeCodeNavigation)
+            .HasForeignKey(l => l.LoadTypeCode)
+            .OnDelete(DeleteBehavior.Cascade);
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
