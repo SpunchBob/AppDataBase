@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\c#\\appdatabase\\appdatabaseview\\scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\mainwindowhandlers\\checkboxhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\c#\\appdatabase\\appdatabaseview\\mainwindowhandlers\\checkboxhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\mainwindowhandlers\\checkboxhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\mainwindowhandlers\\listboxitemshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\c#\\appdatabase\\appdatabaseview\\mainwindowhandlers\\listboxitemshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\mainwindowhandlers\\listboxitemshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\c#\\appdatabase\\appdatabaseview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\mainwindowhandlers\\buttonshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\c#\\appdatabase\\appdatabaseview\\mainwindowhandlers\\buttonshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\mainwindowhandlers\\buttonshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\c#\\appdatabase\\appdatabaseview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\appdatabaseview.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\c#\\appdatabase\\appdatabaseview\\appdatabaseview.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\appdatabaseview.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\c#\\appdatabase\\appdatabaseview\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\c#\\appdatabase\\appdatabaseview\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\appdatabaseview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\c#\\appdatabase\\appdatabaseview\\appdatabaseview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\appdatabaseview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\c#\\appdatabase\\appdatabaseview\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,32 +54,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 448,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CheckBoxHandlers.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindowHandlers\\CheckBoxHandlers.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindowHandlers\\CheckBoxHandlers.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\MainWindowHandlers\\CheckBoxHandlers.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindowHandlers\\CheckBoxHandlers.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindowHandlers\\CheckBoxHandlers.cs",
               "RelativeToolTip": "AppDataBaseView\\MainWindowHandlers\\CheckBoxHandlers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T19:08:51.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T19:08:51.28Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Scripts.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Scripts.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Scripts.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\Scripts.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Scripts.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Scripts.cs",
               "RelativeToolTip": "AppDataBaseView\\Scripts.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,61 +97,57 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ListBoxItemsHandlers.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindowHandlers\\ListBoxItemsHandlers.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindowHandlers\\ListBoxItemsHandlers.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\MainWindowHandlers\\ListBoxItemsHandlers.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindowHandlers\\ListBoxItemsHandlers.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindowHandlers\\ListBoxItemsHandlers.cs",
               "RelativeToolTip": "AppDataBaseView\\MainWindowHandlers\\ListBoxItemsHandlers.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAIwCcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T06:43:21.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T06:43:21.99Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ButtonsHandlers.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindowHandlers\\ButtonsHandlers.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindowHandlers\\ButtonsHandlers.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\MainWindowHandlers\\ButtonsHandlers.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindowHandlers\\ButtonsHandlers.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindowHandlers\\ButtonsHandlers.cs",
               "RelativeToolTip": "AppDataBaseView\\MainWindowHandlers\\ButtonsHandlers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T06:40:10.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T06:40:10.252Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindow.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T10:58:38.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T10:58:38.762Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AssemblyInfo.cs",
               "RelativeToolTip": "AppDataBaseView\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T16:40:35.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T16:40:35.982Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "AppDataBaseView.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
               "RelativeDocumentMoniker": "AppDataBaseView\\AppDataBaseView.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
               "RelativeToolTip": "AppDataBaseView\\AppDataBaseView.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -154,21 +157,20 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "AppDataBaseView",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
               "RelativeDocumentMoniker": "AppDataBaseView\\AppDataBaseView.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
               "RelativeToolTip": "AppDataBaseView\\AppDataBaseView.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-23T18:38:45.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T18:38:45.761Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "DataBaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\DataBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\DataBaseContext.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\Models\\DataBaseContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\DataBaseContext.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\DataBaseContext.cs",
               "RelativeToolTip": "AppDataBaseView\\Models\\DataBaseContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -178,9 +180,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Employees.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\Employees.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\Employees.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\Models\\Employees.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\Employees.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\Employees.cs",
               "RelativeToolTip": "AppDataBaseView\\Models\\Employees.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -200,9 +202,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindow.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindow.xaml",
               "RelativeToolTip": "AppDataBaseView\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-21T10:58:42.62Z",
