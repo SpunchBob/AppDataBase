@@ -16,7 +16,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppDataBaseView
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Шура\Desktop\AppDataBase\AppDataBaseView\
+=======
+build_property.ProjectDir = C:\Users\Шура\Desktop\C#\AppDataBase\AppDataBaseView\
+>>>>>>> 0c462abe9cbd23e4b05c1d3f134bbc1694f8d7b1
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
