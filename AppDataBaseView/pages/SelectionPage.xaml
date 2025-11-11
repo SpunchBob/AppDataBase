@@ -51,10 +51,56 @@
                 </StackPanel>
             </TabItem>
             <TabItem Header="Выборка 2">
-                
+                <StackPanel>
+                    <Grid Width="440" Height="570">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="400"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Style="{StaticResource DBeaverLabel}" Content="Перевозки определенного рабоника:" Width="300" Height="40"
+           Grid.Row="0" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="10,0,0,0"/>
+                        <Label Style="{StaticResource DBeaverLabel}" Content="Работник:" Width="100" Height="40"
+           Grid.Row="1" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="10,0,0,0"/>
+                        <ComboBox x:Name="selection_emp_cb" Style="{StaticResource DBeaverComboBoxHorizontal}" Grid.Row="1" Width="160" Height="28"
+              HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,90,0" SelectedIndex="0">
+                        </ComboBox>
+                        <Button Style="{StaticResource DBeaverButton}" Grid.Row="3" Content="Совершить выборку" Width="200" Height="28"
+            HorizontalAlignment="Left" Margin="10,0,0,0" Click="Button_Emp_Click"/>
+                        <DataGrid x:Name="data_emp" Style="{StaticResource DBeaverDataGrid}" Grid.Row="5" Height="320" Width="400"
+              HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,20,0"/>
+                    </Grid>
+                </StackPanel>
             </TabItem>
             <TabItem Header="Выборка 3">
-                
+                <StackPanel>
+                    <Grid Width="440" Height="570">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="400"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Style="{StaticResource DBeaverLabel}" Content="Дата отправки перевозки:" Width="300" Height="40"
+Grid.Row="0" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="10,0,0,0"/>
+                        <Label Style="{StaticResource DBeaverLabel}" Content="Дата:" Width="100" Height="40"
+Grid.Row="1" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="10,0,0,0"/>
+                        <DatePicker x:Name="selection_date_cb" Style="{StaticResource DBeaverDatePickerMinimal}" Grid.Row="1" Width="160" Height="28"
+   HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,150,0">
+                        </DatePicker>
+                        <Button Style="{StaticResource DBeaverButton}" Grid.Row="3" Content="Совершить выборку" Width="200" Height="28"
+ HorizontalAlignment="Left" Margin="10,0,0,0" Click="Button_Date_Click"/>
+                        <DataGrid x:Name="data_date" Style="{StaticResource DBeaverDataGrid}" Grid.Row="5" Height="320" Width="400"
+   HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,20,0"/>
+                    </Grid>
+                </StackPanel>
             </TabItem>
         </TabControl>
     </Grid>

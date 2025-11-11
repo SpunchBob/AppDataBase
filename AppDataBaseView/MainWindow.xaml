@@ -31,7 +31,7 @@
             <Grid.ColumnDefinitions>
 
                 <ColumnDefinition Width="100"/>
-                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="110"/>
                 <ColumnDefinition Width="100"/>
                 <ColumnDefinition Width="100"/>
                 <ColumnDefinition Width="100"/>
@@ -55,7 +55,7 @@
                     Content="Изменить"
                     Width="80"
                     Height="32"
-                    Margin="0, 5, 0, 0"/>
+                    Margin="10, 5, 0, 0"/>
 
             <Button Style="{StaticResource DBeaverButton}"
                     x:Name="deleteButton"

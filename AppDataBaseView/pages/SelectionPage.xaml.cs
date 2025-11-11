@@ -21,9 +21,15 @@ namespace AppDataBaseView.pages
     /// </summary>
     public partial class SelectionPage : Page
     {
+        public class ComboBoxItem_Emp : ComboBoxItem {
+            
+            public Employee link { get; set; }
+
+        }
         public SelectionPage()
         {
             InitializeComponent();
+            GetData();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -46,7 +52,57 @@ namespace AppDataBaseView.pages
                     data.ItemsSource = flight.ToList();
                 }
             }
-            ;
+        }
+        private void GetData() 
+        {
+            using (DataBaseContext Context = new DataBaseContext()) 
+            {
+                foreach (Employee employee in Context.Employees.ToList()) 
+                {
+                    selection_emp_cb.Items.Add(
+                            new ComboBoxItem_Emp()
+                            {
+                                Content = $"{employee.EmployeeCode} - {employee.Fcs}",
+                                link = employee
+                            }
+                        );
+                }
+            }
+        }
+        private void Button_Emp_Click(object sender, RoutedEventArgs e) 
+        {
+            using (DataBaseContext Context = new DataBaseContext())
+            {
+                if (selection_emp_cb.SelectedItem == null)
+                {
+                    MessageBox.Show("Выберите пользователя для совершения выборки!");
+                }
+                else 
+                {
+                    ComboBoxItem_Emp item = selection_emp_cb.SelectedItem as ComboBoxItem_Emp;
+                    var flights = Context.Flights
+                        .Where(f => f.EmployeeCode == item.link.EmployeeCode);
+                    data_emp.ItemsSource = flights.ToList();
+                }
+            }
+        }
+
+        private void Button_Date_Click(object sender, RoutedEventArgs e) 
+        {
+            using (DataBaseContext Context = new DataBaseContext()) 
+            {
+                if (string.IsNullOrEmpty((selection_date_cb.Text)))
+                {
+                    MessageBox.Show("Выберете дату для совершеня выборки!");
+                }
+                else 
+                {
+                    var flights = Context.Flights
+                        .Where(f => DateTime.Parse(f.SendDate) == DateTime.Parse(selection_date_cb.Text));
+                    data_date.ItemsSource = flights.ToList();
+                }
+            }
         }
     }
 }
+    
