@@ -45,7 +45,7 @@ namespace AppDataBaseView.pages.EmployeesPages
                 employees_cb.Items.Add(
                         new ComboBoxItem_Custom()
                         {
-                            Content = emp.Fcs,
+                            Content = $"{emp.EmployeeCode} - {emp.Fcs}",
                             EmployeeLink = emp
                         }
                     );

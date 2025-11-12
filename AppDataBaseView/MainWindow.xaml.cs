@@ -34,6 +34,8 @@ namespace AppDataBaseView
             deleteButton.Click  += MainWindowHandlers.ButtonsHandlers.DeleteButton_OnClick;
             readButton.Click    += MainWindowHandlers.ButtonsHandlers.ReadButton_OnClick;
             selection_btn.Click += MainWindowHandlers.ButtonsHandlers.Selection_btn_Click;
+            union_btn.Click     += MainWindowHandlers.ButtonsHandlers.join_btn;
+            function_btn.Click  += MainWindowHandlers.ButtonsHandlers.stats_btn;
 
             Scripts.AppendTablesList(tablesListBox, (MainWindow)Application.Current.MainWindow);
             // Scripts.AddListBoxItemsHandlers(tablesListBox, MainWindowHandlers.ListBoxItemsHandlers.GetHandlers(), MainWindowHandlers.ListBoxItemsHandlers.ListBoxItem_Selected);

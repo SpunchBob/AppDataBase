@@ -1,215 +1,219 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\selectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\selectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\selectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\selectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\models\\load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\models\\load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\flights-pages\\flightspagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\flights-pages\\flightspagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\flights-pages\\flightspageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\flights-pages\\flightspageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\types-loads-pages\\typesloadspagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-loads-pages\\typesloadspagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\employees-pages\\employeespageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\employees-pages\\employeespageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\main-window-handlers\\checkboxhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\main-window-handlers\\checkboxhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\migrations\\databasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\migrations\\databasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\main-window-handlers\\buttonshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\main-window-handlers\\buttonshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\main-window-handlers\\buttonshandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\types-auto-pages\\typesautopagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-auto-pages\\typesautopagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\main-window-handlers\\checkboxhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\main-window-handlers\\checkboxhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\types-auto-pages\\typesautopagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-auto-pages\\typesautopagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\formwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\formwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\loads-pages\\loadspagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\loads-pages\\loadspagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\loads-pages\\loadspageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\loads-pages\\loadspageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\employees-pages\\employeespagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\models\\load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\models\\load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\employees-pages\\employeespagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\employees-pages\\employeespagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\flights-pages\\flightspagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\selectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\selectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\selectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\selectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\flights-pages\\flightspagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\flights-pages\\flightspagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\flights-pages\\flightspageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\flights-pages\\flightspageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\types-loads-pages\\typesloadspagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-loads-pages\\typesloadspagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\employees-pages\\employeespageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\employees-pages\\employeespageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\migrations\\databasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\migrations\\databasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\types-auto-pages\\typesautopagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-auto-pages\\typesautopagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\types-auto-pages\\typesautopagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-auto-pages\\typesautopagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\formwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\formwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\loads-pages\\loadspagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\loads-pages\\loadspagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\loads-pages\\loadspageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\loads-pages\\loadspageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\flights-pages\\flightspagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\flights-pages\\flightspagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\flights-pages\\flightspagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\flights-pages\\flightspagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\flights-pages\\flightspagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\flights-pages\\flightspagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\flights-pages\\flightspagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\flights-pages\\flightspagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\appdatabaseview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\appdatabaseview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\appdatabaseview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\employees-pages\\employeespagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\employees-pages\\employeespagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\employees-pages\\employeespagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\loads-pages\\loadspagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\loads-pages\\loadspagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\loads-pages\\loadspagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\types-auto-pages\\typesautopagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\types-auto-pages\\typesautopagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-auto-pages\\typesautopagedelete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\types-loads-pages\\typesloadspagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\types-loads-pages\\typesloadspagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-loads-pages\\typesloadspagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\migrations\\20251106221925_addcascadedeletefortypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\migrations\\20251106221925_addcascadedeletefortypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\migrations\\20251106221925_addcascadedeletefortypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0428\u0443\u0440\u0430\\AppData\\Local\\Temp\\.vsdbgsrc\\e8d68e7af1fb94bc3cfd753c560f12bc92ccb3bdaccf6e4be8ffa111bf800af6\\ExceptionWrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\types-auto-pages\\typesautopagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\types-auto-pages\\typesautopagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-auto-pages\\typesautopagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\types-auto-pages\\typesautopageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\types-auto-pages\\typesautopageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-auto-pages\\typesautopageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\loads-pages\\loadspagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\loads-pages\\loadspagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\loads-pages\\loadspagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\loads-pages\\loadspagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\loads-pages\\loadspagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\loads-pages\\loadspagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\types-loads-pages\\typesloadspagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\types-loads-pages\\typesloadspagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-loads-pages\\typesloadspagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\types-loads-pages\\typesloadspagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\types-loads-pages\\typesloadspagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-loads-pages\\typesloadspagechange.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\types-loads-pages\\typesloadspageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\types-loads-pages\\typesloadspageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-loads-pages\\typesloadspageadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\types-loads-pages\\typesloadspageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\types-loads-pages\\typesloadspageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-loads-pages\\typesloadspageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\types-auto-pages\\typesautopageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\types-auto-pages\\typesautopageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\types-auto-pages\\typesautopageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\loads-pages\\loadspageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\loads-pages\\loadspageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\loads-pages\\loadspageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\formwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\formwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\formwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\employees-pages\\employeespagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\employees-pages\\employeespagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\employees-pages\\employeespagechange.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\employees-pages\\employeespageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\employees-pages\\employeespageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\employees-pages\\employeespageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\flights-pages\\flightspageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\flights-pages\\flightspageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\flights-pages\\flightspageadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\pages\\employees-pages\\employeespagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\pages\\employees-pages\\employeespagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\pages\\employees-pages\\employeespagedelete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0428\u0443\u0440\u0430\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\appdatabaseview.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\appdatabaseview.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\appdatabaseview.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\user\\desktop\\c#\\appdatabase\\appdatabaseview\\migrations\\20251107074515_datetimemigraton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|c:\\users\\\u0448\u0443\u0440\u0430\\desktop\\appdatabase\\appdatabaseview\\migrations\\20251107074515_datetimemigraton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F02A660-7207-441E-AE62-2D2988814609}|AppDataBaseView\\AppDataBaseView.csproj|solutionrelative:appdatabaseview\\migrations\\20251107074515_datetimemigraton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -220,31 +224,130 @@
       "DocumentGroups": [
         {
           "DockedWidth": 576,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FlightsPageAdd.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml.cs",
-              "RelativeDocumentMoniker": "AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml.cs",
-              "RelativeToolTip": "AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAEwDkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:55:01.191Z"
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "ButtonsHandlers.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\main-window-handlers\\ButtonsHandlers.cs",
+              "RelativeDocumentMoniker": "AppDataBaseView\\main-window-handlers\\ButtonsHandlers.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\main-window-handlers\\ButtonsHandlers.cs",
+              "RelativeToolTip": "AppDataBaseView\\main-window-handlers\\ButtonsHandlers.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAIwIkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T12:55:01.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeesPageChange.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml.cs",
+              "RelativeDocumentMoniker": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml.cs",
+              "RelativeToolTip": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAIA+wGQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T12:55:01.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Models\\Flight.cs",
+              "RelativeDocumentMoniker": "AppDataBaseView\\Models\\Flight.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Models\\Flight.cs",
+              "RelativeToolTip": "AppDataBaseView\\Models\\Flight.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T12:55:01.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "AppDataBaseView\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Models\\Employee.cs",
+              "RelativeToolTip": "AppDataBaseView\\Models\\Employee.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:09:01.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AppDataBaseView\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AppDataBaseView\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwCMAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T12:55:01.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AppDataBaseView\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\MainWindow.xaml",
+              "RelativeToolTip": "AppDataBaseView\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-08T12:55:01.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckBoxHandlers.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\main-window-handlers\\CheckBoxHandlers.cs",
+              "RelativeDocumentMoniker": "AppDataBaseView\\main-window-handlers\\CheckBoxHandlers.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\main-window-handlers\\CheckBoxHandlers.cs",
+              "RelativeToolTip": "AppDataBaseView\\main-window-handlers\\CheckBoxHandlers.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T12:55:01.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Models\\DataBaseContext.cs",
+              "RelativeDocumentMoniker": "AppDataBaseView\\Models\\DataBaseContext.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Models\\DataBaseContext.cs",
+              "RelativeToolTip": "AppDataBaseView\\Models\\DataBaseContext.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAAEIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T12:55:01.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "FlightsPageChange.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageChange.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageChange.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\flights-pages\\FlightsPageChange.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageChange.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageChange.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\pages\\flights-pages\\FlightsPageChange.xaml.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAQwJsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -252,24 +355,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DataBaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\DataBaseContext.cs",
-              "RelativeDocumentMoniker": "AppDataBaseView\\Models\\DataBaseContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\DataBaseContext.cs",
-              "RelativeToolTip": "AppDataBaseView\\Models\\DataBaseContext.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBUAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "SelectionPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\SelectionPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppDataBaseView\\pages\\SelectionPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\SelectionPage.xaml.cs",
+              "RelativeToolTip": "AppDataBaseView\\pages\\SelectionPage.xaml.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAswDkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:55:01.195Z",
+              "WhenOpened": "2025-11-08T12:55:01.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
+              "Title": "Load.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Models\\Load.cs",
+              "RelativeDocumentMoniker": "AppDataBaseView\\Models\\Load.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Models\\Load.cs",
+              "RelativeToolTip": "AppDataBaseView\\Models\\Load.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T13:05:44.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\Styles.xaml",
+              "RelativeDocumentMoniker": "AppDataBaseView\\pages\\Styles.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\Styles.xaml",
+              "RelativeToolTip": "AppDataBaseView\\pages\\Styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-08T12:55:01.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TypesAutoPageChange.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml.cs",
+              "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml.cs",
+              "RelativeToolTip": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowEcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T12:55:01.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "EmployeesPageAdd.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageAdd.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageAdd.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageAdd.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageAdd.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageAdd.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageAdd.xaml.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAUwEEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -278,84 +417,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TypesAutoPageChange.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml.cs",
-              "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml.cs",
-              "RelativeToolTip": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowEcAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:55:01.197Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "AppDataBaseView\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindow.xaml.cs",
-              "RelativeToolTip": "AppDataBaseView\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAcwBwAAAAMAAAAAAAAAA==",
+              "Title": "FlightsPageAdd.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml.cs",
+              "RelativeDocumentMoniker": "AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml.cs",
+              "RelativeToolTip": "AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAEwDkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:55:01.198Z"
+              "WhenOpened": "2025-11-08T12:55:01.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "AppDataBaseView\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\MainWindow.xaml",
-              "RelativeToolTip": "AppDataBaseView\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-08T12:55:01.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\Styles.xaml",
-              "RelativeDocumentMoniker": "AppDataBaseView\\pages\\Styles.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\Styles.xaml",
-              "RelativeToolTip": "AppDataBaseView\\pages\\Styles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-08T12:55:01.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SelectionPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\SelectionPage.xaml.cs",
-              "RelativeDocumentMoniker": "AppDataBaseView\\pages\\SelectionPage.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\SelectionPage.xaml.cs",
-              "RelativeToolTip": "AppDataBaseView\\pages\\SelectionPage.xaml.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAiwGUAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:55:01.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Flight.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\Flight.cs",
-              "RelativeDocumentMoniker": "AppDataBaseView\\Models\\Flight.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\Flight.cs",
-              "RelativeToolTip": "AppDataBaseView\\Models\\Flight.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAewBUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:55:01.189Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "TypesLoadsPageDelete.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageDelete.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageDelete.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageDelete.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageDelete.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageDelete.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageDelete.xaml.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAqwDcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -363,48 +441,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "SelectionPage.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\SelectionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\SelectionPage.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\SelectionPage.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\SelectionPage.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\SelectionPage.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\SelectionPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-08T12:55:01.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T12:55:01.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Load.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\Load.cs",
-              "RelativeDocumentMoniker": "AppDataBaseView\\Models\\Load.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Models\\Load.cs",
-              "RelativeToolTip": "AppDataBaseView\\Models\\Load.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:05:44.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CheckBoxHandlers.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\main-window-handlers\\CheckBoxHandlers.cs",
-              "RelativeDocumentMoniker": "AppDataBaseView\\main-window-handlers\\CheckBoxHandlers.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\main-window-handlers\\CheckBoxHandlers.cs",
-              "RelativeToolTip": "AppDataBaseView\\main-window-handlers\\CheckBoxHandlers.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:55:01.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Styles.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Styles.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\Styles.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Styles.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Styles.xaml",
               "RelativeToolTip": "AppDataBaseView\\Styles.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.201Z",
@@ -412,11 +464,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "DataBaseContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Migrations\\DataBaseContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Migrations\\DataBaseContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\Migrations\\DataBaseContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Migrations\\DataBaseContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Migrations\\DataBaseContextModelSnapshot.cs",
               "RelativeToolTip": "AppDataBaseView\\Migrations\\DataBaseContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -424,23 +476,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ButtonsHandlers.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\main-window-handlers\\ButtonsHandlers.cs",
-              "RelativeDocumentMoniker": "AppDataBaseView\\main-window-handlers\\ButtonsHandlers.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\main-window-handlers\\ButtonsHandlers.cs",
-              "RelativeToolTip": "AppDataBaseView\\main-window-handlers\\ButtonsHandlers.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAwGAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:55:01.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Scripts.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Scripts.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Scripts.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\Scripts.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Scripts.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Scripts.cs",
               "RelativeToolTip": "AppDataBaseView\\Scripts.cs",
               "ViewState": "AgIAAHkAAAAAAAAAAAAcwIMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -448,33 +488,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "TypesAutoPageChange.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageChange.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "FormWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\FormWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\FormWindow.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\FormWindow.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\FormWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\FormWindow.xaml",
               "RelativeToolTip": "AppDataBaseView\\FormWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "LoadsPageAdd.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageAdd.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageAdd.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\loads-pages\\LoadsPageAdd.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageAdd.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageAdd.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\pages\\loads-pages\\LoadsPageAdd.xaml.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAkwDMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -483,22 +523,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "EmployeesPageChange.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml.cs",
-              "RelativeDocumentMoniker": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml.cs",
-              "RelativeToolTip": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAnwGIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:55:01.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "LoadsPageChange.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageChange.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageChange.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\loads-pages\\LoadsPageChange.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageChange.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageChange.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\pages\\loads-pages\\LoadsPageChange.xaml.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAADwv2EAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -506,22 +534,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "FlightsPageChange.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageChange.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageChange.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\flights-pages\\FlightsPageChange.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageChange.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageChange.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\flights-pages\\FlightsPageChange.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "FlightsPageDelete.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageDelete.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageDelete.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\flights-pages\\FlightsPageDelete.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageDelete.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageDelete.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\pages\\flights-pages\\FlightsPageDelete.xaml.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAqwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -529,22 +557,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "FlightsPageDelete.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageDelete.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageDelete.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\flights-pages\\FlightsPageDelete.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageDelete.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageDelete.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\flights-pages\\FlightsPageDelete.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "AppDataBaseView.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
               "RelativeDocumentMoniker": "AppDataBaseView\\AppDataBaseView.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
               "RelativeToolTip": "AppDataBaseView\\AppDataBaseView.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -552,11 +580,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\App.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\App.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -564,11 +592,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "20251107074515_DateTimeMigraton.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Migrations\\20251107074515_DateTimeMigraton.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Migrations\\20251107074515_DateTimeMigraton.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\Migrations\\20251107074515_DateTimeMigraton.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Migrations\\20251107074515_DateTimeMigraton.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Migrations\\20251107074515_DateTimeMigraton.cs",
               "RelativeToolTip": "AppDataBaseView\\Migrations\\20251107074515_DateTimeMigraton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -576,11 +604,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "EmployeesPageDelete.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageDelete.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageDelete.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageDelete.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageDelete.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageDelete.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageDelete.xaml.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAcwGcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -588,11 +616,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "TypesAutoPageDelete.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageDelete.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageDelete.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageDelete.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageDelete.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageDelete.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageDelete.xaml.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAmwFQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -600,11 +628,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "LoadsPageDelete.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageDelete.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageDelete.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\loads-pages\\LoadsPageDelete.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageDelete.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageDelete.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\pages\\loads-pages\\LoadsPageDelete.xaml.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAqwEIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -612,22 +640,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "TypesLoadsPageDelete.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageDelete.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageDelete.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageDelete.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageDelete.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageDelete.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageDelete.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "20251106221925_AddCascadeDeleteForTypes.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Migrations\\20251106221925_AddCascadeDeleteForTypes.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Migrations\\20251106221925_AddCascadeDeleteForTypes.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\Migrations\\20251106221925_AddCascadeDeleteForTypes.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\Migrations\\20251106221925_AddCascadeDeleteForTypes.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\Migrations\\20251106221925_AddCascadeDeleteForTypes.cs",
               "RelativeToolTip": "AppDataBaseView\\Migrations\\20251106221925_AddCascadeDeleteForTypes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -635,34 +663,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ExceptionWrapper.cs",
               "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\AppData\\Local\\Temp\\.vsdbgsrc\\e8d68e7af1fb94bc3cfd753c560f12bc92ccb3bdaccf6e4be8ffa111bf800af6\\ExceptionWrapper.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\\u0428\u0443\u0440\u0430\\AppData\\Local\\Temp\\.vsdbgsrc\\e8d68e7af1fb94bc3cfd753c560f12bc92ccb3bdaccf6e4be8ffa111bf800af6\\ExceptionWrapper.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e8d68e7af1fb94bc3cfd753c560f12bc92ccb3bdaccf6e4be8ffa111bf800af6\\ExceptionWrapper.cs",
               "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\AppData\\Local\\Temp\\.vsdbgsrc\\e8d68e7af1fb94bc3cfd753c560f12bc92ccb3bdaccf6e4be8ffa111bf800af6\\ExceptionWrapper.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\\u0428\u0443\u0440\u0430\\AppData\\Local\\Temp\\.vsdbgsrc\\e8d68e7af1fb94bc3cfd753c560f12bc92ccb3bdaccf6e4be8ffa111bf800af6\\ExceptionWrapper.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e8d68e7af1fb94bc3cfd753c560f12bc92ccb3bdaccf6e4be8ffa111bf800af6\\ExceptionWrapper.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAIAwwBkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T21:53:29.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "TypesAutoPageDelete.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageDelete.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageDelete.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageDelete.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageDelete.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageDelete.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageDelete.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "TypesAutoPageAdd.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageAdd.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageAdd.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageAdd.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageAdd.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageAdd.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageAdd.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -670,44 +698,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "LoadsPageChange.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageChange.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageChange.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\loads-pages\\LoadsPageChange.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageChange.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageChange.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\loads-pages\\LoadsPageChange.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "LoadsPageDelete.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageDelete.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageDelete.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\loads-pages\\LoadsPageDelete.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageDelete.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageDelete.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\loads-pages\\LoadsPageDelete.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "TypesLoadsPageChange.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageChange.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageChange.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageChange.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageChange.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageChange.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageChange.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "TypesLoadsPageChange.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageChange.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageChange.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageChange.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageChange.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageChange.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageChange.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -715,11 +743,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "TypesLoadsPageAdd.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageAdd.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageAdd.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageAdd.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageAdd.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageAdd.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageAdd.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -727,44 +755,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "TypesLoadsPageAdd.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageAdd.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageAdd.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageAdd.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageAdd.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageAdd.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\types-loads-pages\\TypesLoadsPageAdd.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "TypesAutoPageAdd.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageAdd.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageAdd.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageAdd.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageAdd.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageAdd.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\types-auto-pages\\TypesAutoPageAdd.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "LoadsPageAdd.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageAdd.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageAdd.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\loads-pages\\LoadsPageAdd.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageAdd.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\loads-pages\\LoadsPageAdd.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\loads-pages\\LoadsPageAdd.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "FormWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\FormWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\FormWindow.xaml.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\FormWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\FormWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\FormWindow.xaml.cs",
               "RelativeToolTip": "AppDataBaseView\\FormWindow.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAkwBcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -772,67 +800,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "EmployeesPageChange.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageChange.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "EmployeesPageAdd.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageAdd.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageAdd.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageAdd.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageAdd.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageAdd.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageAdd.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "FlightsPageAdd.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\flights-pages\\FlightsPageAdd.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "EmployeesPageDelete.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageDelete.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageDelete.xaml",
               "RelativeDocumentMoniker": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageDelete.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageDelete.xaml",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\pages\\employees-pages\\EmployeesPageDelete.xaml",
               "RelativeToolTip": "AppDataBaseView\\pages\\employees-pages\\EmployeesPageDelete.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-08T12:55:01.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\\u0428\u0443\u0440\u0430\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
               "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\\u0428\u0443\u0440\u0430\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAjwCcAAAAEAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T06:52:16.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AppDataBaseView\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\AssemblyInfo.cs",
               "RelativeToolTip": "AppDataBaseView\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -840,11 +868,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "AppDataBaseView",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
               "RelativeDocumentMoniker": "AppDataBaseView\\AppDataBaseView.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
+              "ToolTip": "C:\\Users\\\u0428\u0443\u0440\u0430\\Desktop\\AppDataBase\\AppDataBaseView\\AppDataBaseView.csproj",
               "RelativeToolTip": "AppDataBaseView\\AppDataBaseView.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-11-08T12:55:01.338Z"

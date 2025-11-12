@@ -97,5 +97,51 @@ namespace AppDataBaseView.MainWindowHandlers
             formWindow.Show();
             Scripts.DisableAllButtons();
         }
+
+        public static void join_btn(object sender, RoutedEventArgs e) 
+        {
+            using (DataBaseContext Context = new DataBaseContext()) 
+            {
+                var flightEmployeeJoin = Context.Flights
+                                        .Join(Context.Employees,
+                                            flight => flight.EmployeeCode,
+                                            employee => employee.EmployeeCode,
+                                            (flight, employee) => new
+                                            {
+                                                FlightCode = flight.FlightCode,
+                                                Route = $"{flight.From} → {flight.Where}",
+                                                Customer = flight.Customer,
+                                                Price = flight.Price,
+                                                EmployeeName = employee.Fcs,
+                                                EmployeePhone = employee.Phonenumber,
+                                                EmployeePosition = employee.Position
+                                            })
+                                        .ToList();
+                Data.ItemsSource = flightEmployeeJoin;
+            }
+            MessageBox.Show("Соединение таблиц: EMPLOYEES INNER JOIN FLIGHTS");
+        }
+        public static void stats_btn(object sender, RoutedEventArgs e)
+        {
+            using (DataBaseContext Context = new DataBaseContext()) 
+            {
+                var routeStats = Context.Flights
+                    .GroupBy(f => new { f.From, f.Where })
+                    .Select(g => new
+                    {
+                        From = g.Key.From,
+                        To = g.Key.Where,
+                        FlightCount = g.Count(),
+                        TotalRevenue = g.Sum(f => f.Price ?? 0),
+                        AveragePrice = g.Average(f => f.Price ?? 0),
+                        MostExpensive = g.Max(f => f.Price ?? 0),
+                        Cheapest = g.Min(f => f.Price ?? 0)
+                    })
+                    .OrderByDescending(x => x.TotalRevenue)
+                    .ToList();
+                Data.ItemsSource = routeStats;
+                MessageBox.Show("Общая информация по маршрутов");
+            }
+        }
     }
 }

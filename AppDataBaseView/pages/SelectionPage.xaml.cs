@@ -1,6 +1,7 @@
 ﻿using AppDataBaseView.Models;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -91,15 +92,22 @@ namespace AppDataBaseView.pages
         {
             using (DataBaseContext Context = new DataBaseContext()) 
             {
-                if (string.IsNullOrEmpty((selection_date_cb.Text)))
+                if (string.IsNullOrEmpty(selection_date_cb.Text))
                 {
                     MessageBox.Show("Выберете дату для совершеня выборки!");
                 }
                 else 
                 {
-                    var flights = Context.Flights
-                        .Where(f => DateTime.Parse(f.SendDate) == DateTime.Parse(selection_date_cb.Text));
-                    data_date.ItemsSource = flights.ToList();
+                    List<Flight> flights = new List<Flight>();
+                    DateTime send_date = DateTime.Parse(selection_date_cb.Text);
+                    foreach (Flight flight in Context.Flights.ToList()) 
+                    {
+                        if (DateTime.Parse(flight.SendDate) < send_date) 
+                        {
+                            flights.Add(flight);
+                        }
+                    }
+                    data_date.ItemsSource = flights;
                 }
             }
         }
