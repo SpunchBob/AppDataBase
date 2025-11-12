@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AppDataBaseView"
         mc:Ignorable="d"
-        Title="Базы данных" Height="420" Width="730">
+        Title="Базы данных" Height="420" Width="730" WindowState="Maximized" WindowStartupLocation="CenterScreen" Icon="/db_icon.png">
 
     <Window.Resources>
 
@@ -18,117 +18,287 @@
     </Window.Resources>
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
 
-        <Grid.RowDefinitions>
+        <!-- Основная рабочая область -->
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
-            <RowDefinition Height="42"/>
-            <RowDefinition/>
+            <!-- Заголовок с информацией о базе данных -->
+            <Border Grid.Row="0" 
+                Background="{StaticResource LightBlueBrush}" 
+                BorderBrush="{StaticResource BorderBlueBrush}" 
+                BorderThickness="0,0,0,1"
+                Padding="15,8">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
 
-        </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal" Grid.Column="0">
+                        <Ellipse Width="12" Height="12" Fill="DarkRed" Margin="0,0,8,0" x:Name="connect_circl"/>
+                        <TextBlock Text="Не подключено" Foreground="{StaticResource TextBrush}" FontWeight="SemiBold" x:Name="connect_tblock"/>
+                    </StackPanel>
 
-        <Grid Grid.Row="0">
+                    <TextBlock Grid.Column="1" 
+                          x:Name="current_path_tblock"
+                          Text=""
+                          Foreground="{StaticResource TextBrush}"
+                          HorizontalAlignment="Center"
+                          FontStyle="Italic"/>
 
-            <Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="2" 
+                          Text="" 
+                          x:Name="time_tblock"
+                          Foreground="{StaticResource TextBrush}"
+                          FontSize="11"/>
+                </Grid>
+            </Border>
 
-                <ColumnDefinition Width="100"/>
-                <ColumnDefinition Width="110"/>
-                <ColumnDefinition Width="100"/>
-                <ColumnDefinition Width="100"/>
-                <ColumnDefinition Width="100"/>
-                <ColumnDefinition Width="100"/>
-                <ColumnDefinition Width="100"/>
-                <ColumnDefinition Width="500"/>
+            <!-- Область данных с разделителем -->
+            <Grid Grid.Row="1" Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" MinWidth="150"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*" MinWidth="300"/>
+                </Grid.ColumnDefinitions>
 
-            </Grid.ColumnDefinitions>
+                <!-- Список таблиц -->
+                <Border Grid.Column="0" 
+                    Background="White"
+                    BorderBrush="{StaticResource BorderBlueBrush}" 
+                    BorderThickness="1"
+                    CornerRadius="2">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
 
-            <Button Style="{StaticResource DBeaverButton}"
-                    x:Name="writeButton"
-                    Grid.Column="0"
-                    Content="Записать"
-                    Width="80"
-                    Height="32"
-                    Margin="0, 5, 0, 0"/>
+                        <Border Grid.Row="0" 
+                            Background="{StaticResource PrimaryBlueBrush}" 
+                            Padding="8,6">
+                            <TextBlock Text="СХЕМЫ И ТАБЛИЦЫ" 
+                                   Foreground="White" 
+                                   FontWeight="SemiBold"
+                                   FontSize="11"
+                                   HorizontalAlignment="Center"/>
+                        </Border>
 
-            <Button Style="{StaticResource DBeaverButton}"
-                    x:Name="changeButton"
-                    Grid.Column="1"
-                    Content="Изменить"
-                    Width="80"
-                    Height="32"
-                    Margin="10, 5, 0, 0"/>
+                        <!-- Поиск по таблицам -->
+                        <Border Grid.Row="0" 
+                            Background="{StaticResource LightBlueBrush}"
+                            BorderBrush="{StaticResource BorderBlueBrush}"
+                            BorderThickness="0,0,0,1"
+                            Padding="5"
+                            VerticalAlignment="Bottom">
+                            <TextBox Style="{StaticResource DBeaverTextBox}"
+                                 x:Name="state_tb"                                 
+                                 Text="Поиск таблиц..."
+                                 IsEnabled="False"
+                                 FontSize="11"
+                                 Height="25"
+                                 BorderThickness="1"/>
+                        </Border>
 
-            <Button Style="{StaticResource DBeaverButton}"
-                    x:Name="deleteButton"
-                    Grid.Column="2"
-                    Content="Удалить"
-                    Width="80"
-                    Height="32"
-                    Margin="0, 5, 0, 0"/>
+                        <ListBox Style="{StaticResource DBeaverListBox}"
+                             x:Name="tablesListBox"
+                             Grid.Row="1"
+                             BorderThickness="0"
+                             Margin="0"/>
+                    </Grid>
+                </Border>
 
-            <Button Style="{StaticResource DBeaverButton}"
-                    x:Name="readButton"
-                    Grid.Column="3"
-                    Content="Чтение"
-                    Width="80"
-                    Height="32"
-                    Margin="0, 5, 0, 0"/>
+                <!-- GridSplitter -->
+                <GridSplitter Grid.Column="1"
+                          Width="3"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Stretch"
+                          Background="{StaticResource BorderBlueBrush}"
+                          ShowsPreview="True"
+                          ResizeDirection="Columns"/>
 
-            <Button Style="{StaticResource DBeaverButton}"
-                    x:Name="selection_btn"
-                    Grid.Column="4"
-                    Content="Выборка"
-                    Width="80"
-                    Height="32"
-                    Margin="10,8,10,0" VerticalAlignment="Top" Cursor="Hand"/>
+                <!-- DataGrid с данными -->
+                <Border Grid.Column="2" 
+                    Background="White"
+                    BorderBrush="{StaticResource BorderBlueBrush}" 
+                    BorderThickness="1"
+                    CornerRadius="2">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
 
-            <Button Style="{StaticResource DBeaverButton}"
-                    x:Name="function_btn"
-                    Grid.Column="6"
-                    Content="FUNC"
-                    Width="80"
-                    Height="32"
-                    Margin="0,5,0,0"/>
+                        <Border Grid.Row="0" 
+                            Background="{StaticResource PrimaryBlueBrush}" 
+                            Padding="8,6">
+                            <Grid>
+                                <TextBlock Text="ДАННЫЕ ТАБЛИЦЫ" 
+                                       Foreground="White" 
+                                       FontWeight="SemiBold"
+                                       FontSize="11"
+                                       HorizontalAlignment="Center"/>
+                                <TextBlock Text="" 
+                                       Foreground="White"
+                                       FontSize="10"
+                                       HorizontalAlignment="Right"
+                                       x:Name="table_info_tblock"/>
+                            </Grid>
+                        </Border>
 
-            <Button Style="{StaticResource DBeaverButton}"
-                    x:Name="union_btn"
-                    Grid.Column="5"
-                    Content="JOIN"
-                    Width="80"
-                    Height="32"
-                    Margin="0,5,0,0"/>
+                        <DataGrid Style="{StaticResource DBeaverDataGrid}"
+                              x:Name="data"
+                              Grid.Row="1"
+                              BorderThickness="0"
+                              Margin="0"/>
+
+                        <!-- Статус бар -->
+                        <Border Grid.Row="2"
+                            Background="{StaticResource LightBlueBrush}"
+                            BorderBrush="{StaticResource BorderBlueBrush}"
+                            BorderThickness="0,1,0,0"
+                            Padding="8,4">
+                            <TextBlock Text="Готово" 
+                                   Foreground="{StaticResource TextBrush}"
+                                   FontSize="11"/>
+                        </Border>
+                    </Grid>
+                </Border>
+            </Grid>
         </Grid>
 
-        <Grid Grid.Row="1">
+        <!-- Vertical GridSplitter -->
+        <GridSplitter Grid.Column="1"
+                  Width="3"
+                  HorizontalAlignment="Center"
+                  VerticalAlignment="Stretch"
+                  Background="{StaticResource BorderBlueBrush}"
+                  ShowsPreview="True"
+                  ResizeDirection="Columns"/>
 
-            <Grid.ColumnDefinitions>
+        <!-- Панель инструментов справа -->
+        <Border Grid.Column="2" 
+            Background="{StaticResource LightBlueBrush}"
+            BorderBrush="{StaticResource BorderBlueBrush}" 
+            BorderThickness="1,0,0,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
 
-                <ColumnDefinition/>
-                <ColumnDefinition Width="500"/>
+                <!-- Заголовок панели инструментов -->
+                <Border Grid.Row="0" 
+                    Background="{StaticResource PrimaryBlueBrush}" 
+                    Padding="12,8">
+                    <TextBlock Text="ПАНЕЛЬ ИНСТРУМЕНТОВ" 
+                           Foreground="White" 
+                           FontWeight="SemiBold"
+                           FontSize="11"
+                           HorizontalAlignment="Center"/>
+                </Border>
 
-            </Grid.ColumnDefinitions>
+                <!-- Группа основных операций -->
+                <GroupBox Grid.Row="1" 
+                      Header="ОСНОВНЫЕ ОПЕРАЦИИ" 
+                      Margin="8,8,8,4"
+                      Style="{StaticResource DBeaverGroupBox}">
+                    <StackPanel Orientation="Vertical" Margin="0,8,0,4">
+                        <Button Style="{StaticResource DBeaverButton}"
+                            x:Name="writeButton"
+                            Content="Записать"
+                            Height="32"
+                            Margin="4,2"/>
 
-            <ListBox Style="{StaticResource DBeaverListBox}"
-                     x:Name="tablesListBox"
-                     Grid.Column="0"
-                     Width="200"
-                     Height="320"
-                     VerticalAlignment="Top"
-                     HorizontalAlignment="Left"
-                     Margin="10, 10, 0, 0">
+                        <Button Style="{StaticResource DBeaverButton}"
+                            x:Name="changeButton"
+                            Content="Изменить"
+                            Height="32"
+                            Margin="4,2"/>
 
-            </ListBox>
+                        <Button Style="{StaticResource DBeaverButton}"
+                            x:Name="deleteButton"
+                            Content="Удалить"
+                            Height="32"
+                            Margin="4,2"/>
 
-            <DataGrid Style="{StaticResource DBeaverDataGrid}"
-                      x:Name="data"
-                      Grid.Column="1"
-                      Width="480"
-                      Height="320"
-                      VerticalAlignment="Top"
-                      HorizontalAlignment="Center"
-                      Margin="0, 10, 0, 0"/>
+                        <Button Style="{StaticResource DBeaverButton}"
+                            x:Name="readButton"
+                            Content="Чтение"
+                            Height="32"
+                            Margin="4,2"/>
+                    </StackPanel>
+                </GroupBox>
 
-        </Grid>
+                <!-- Группа расширенных операций -->
+                <GroupBox Grid.Row="2" 
+                      Header="РАСШИРЕННЫЕ ОПЕРАЦИИ" 
+                      Margin="8,4,8,4"
+                      Style="{StaticResource DBeaverGroupBox}">
+                    <StackPanel Orientation="Vertical" Margin="0,8,0,4">
+                        <Button Style="{StaticResource DBeaverButton}"
+                            x:Name="selection_btn"
+                            Content="Выборка"
+                            Height="32"
+                            Margin="4,2"/>
 
+                        <Button Style="{StaticResource DBeaverButton}"
+                            x:Name="union_btn"
+                            Content="JOIN"
+                            Height="32"
+                            Margin="4,2"/>
+
+                        <Button Style="{StaticResource DBeaverButton}"
+                            x:Name="function_btn"
+                            Content="FUNC"
+                            Height="32"
+                            Margin="4,2"/>
+                    </StackPanel>
+                </GroupBox>
+
+                <!-- Информационная панель -->
+                <Border Grid.Row="3"
+                    Background="White"
+                    BorderBrush="{StaticResource BorderBlueBrush}"
+                    BorderThickness="0,1,0,0"
+                    Margin="8,4,8,8"
+                    Padding="8"
+                    CornerRadius="2">
+                    <StackPanel>
+                        <TextBlock Text="Информация о системе:" 
+                               Foreground="{StaticResource TextBrush}"
+                               FontWeight="SemiBold"
+                               FontSize="11"
+                               Margin="0,0,0,4"/>
+
+                        <StackPanel Orientation="Horizontal" Margin="0,2">
+                            <Ellipse Width="8" Height="8" Fill="#4CAF50" Margin="0,0,4,0"/>
+                            <TextBlock Text="SQLite 3.0" FontSize="10" Foreground="{StaticResource TextBrush}"/>
+                        </StackPanel>
+
+
+
+                        <StackPanel Orientation="Horizontal" Margin="0,2">
+                            <Ellipse Width="8" Height="8" Fill="#FF9800" Margin="0,0,4,0"/>
+                            <TextBlock x:Name="tables_count_tblock" Text="" FontSize="10" Foreground="{StaticResource TextBrush}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Border>
     </Grid>
 
 </Window>

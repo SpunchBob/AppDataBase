@@ -73,7 +73,14 @@ namespace AppDataBaseView.pages.types_auto_pages
                     Name = name_tb.Text,
                     Describe = describe_tb.Text
                 });
-                Context.SaveChanges();
+                try
+                {
+                    Context.SaveChanges();
+                }
+                catch (Exception ex) 
+                {
+                    MessageBox.Show(ex.Message);
+                }
                 MessageBox.Show("Изменение прошло успешно");
                 formWindow.Close();
             }

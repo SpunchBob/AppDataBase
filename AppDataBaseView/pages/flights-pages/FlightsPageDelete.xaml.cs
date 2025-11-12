@@ -77,7 +77,14 @@ namespace AppDataBaseView.pages.FlightsPages
                         if (flight != null)
                         {
                             Context.Flights.Remove(flight);
-                            Context.SaveChanges();
+                            try
+                            {
+                                Context.SaveChanges();
+                            }
+                            catch (Exception ex) 
+                            {
+                                MessageBox.Show(ex.Message);
+                            }
 
                             MessageBox.Show("Рейс успешно удален");
                             formWindow.Close();

@@ -1,20 +1,20 @@
 ﻿AppDataBaseView
 1.0.0.0
 
-exe
+winexe
 C#
 .cs
-C:\Users\Шура\Desktop\AppDataBase\AppDataBaseView\obj\Debug\net8.0-windows\
+C:\Users\User\Desktop\C#\AppDataBase\AppDataBaseView\obj\Debug\net8.0-windows\
 AppDataBaseView
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\Шура\Desktop\AppDataBase\AppDataBaseView\App.xaml
+C:\Users\User\Desktop\C#\AppDataBase\AppDataBaseView\App.xaml
 20337684877
 
 37-1740272849
-217193930641
+2171455175589
 FormWindow.xaml;MainWindow.xaml;pages\employees-pages\EmployeesPageAdd.xaml;pages\employees-pages\EmployeesPageChange.xaml;pages\employees-pages\EmployeesPageDelete.xaml;pages\flights-pages\FlightsPageAdd.xaml;pages\flights-pages\FlightsPageChange.xaml;pages\flights-pages\FlightsPageDelete.xaml;pages\loads-pages\LoadsPageAdd.xaml;pages\loads-pages\LoadsPageChange.xaml;pages\loads-pages\LoadsPageDelete.xaml;pages\SelectionPage.xaml;pages\Styles.xaml;pages\types-auto-pages\TypesAutoPageAdd.xaml;pages\types-auto-pages\TypesAutoPageChange.xaml;pages\types-auto-pages\TypesAutoPageDelete.xaml;pages\types-loads-pages\TypesLoadsPageAdd.xaml;pages\types-loads-pages\TypesLoadsPageChange.xaml;pages\types-loads-pages\TypesLoadsPageDelete.xaml;Styles.xaml;
 
-True
+False
 

@@ -40,6 +40,24 @@ namespace AppDataBaseView
             Scripts.AppendTablesList(tablesListBox, (MainWindow)Application.Current.MainWindow);
             // Scripts.AddListBoxItemsHandlers(tablesListBox, MainWindowHandlers.ListBoxItemsHandlers.GetHandlers(), MainWindowHandlers.ListBoxItemsHandlers.ListBoxItem_Selected);
 
+            using (DataBaseContext Context = new DataBaseContext()) 
+            {
+                if (Context.Database.CanConnect()) 
+                {
+                    connect_circl.Fill = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#4CAF50"));
+                    connect_tblock.Text = "Подключено";
+                    current_path_tblock.Text = Context.Database.GetConnectionString();
+                    var tableCount = Context.GetType()
+                                    .GetProperties()
+                                    .Where(p => p.PropertyType.IsGenericType &&
+                                                p.PropertyType.GetGenericTypeDefinition() == typeof(DbSet<>))
+                                    .Count();
+                    tables_count_tblock.Text = $"Таблиц: {tableCount}";
+                    state_tb.Text = "Таблиц найдены";
+                }
+            }
+
+            time_tblock.Text = $"Дата входа: {DateTime.Now}";
         }
     }
 }

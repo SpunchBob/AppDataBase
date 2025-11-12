@@ -39,9 +39,9 @@ namespace AppDataBaseView.pages.EmployeesPages
             {
                 System.Windows.MessageBox.Show("Все поля должны быть заполнены");
             }
-            else 
-            {
-                Context.Employees.Add(
+            else
+            { 
+               Context.Employees.Add(
                     new Models.Employee()
                     {
                         EmployeeCode = Convert.ToInt32(code_tb.Text),
@@ -58,9 +58,9 @@ namespace AppDataBaseView.pages.EmployeesPages
                 {
                     Context.SaveChanges();
                 }
-                catch 
+                catch (Exception ex) 
                 {
-                    
+                    MessageBox.Show("ОШИБКА ДОБАВЛЕНИЯ");
                 }
                 Console.WriteLine(Context.Employees.Count());
                 System.Windows.MessageBox.Show("Добавление прошло успешно");

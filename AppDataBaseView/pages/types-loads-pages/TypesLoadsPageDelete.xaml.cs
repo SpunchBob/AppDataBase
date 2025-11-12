@@ -70,7 +70,14 @@ namespace AppDataBaseView.pages.types_loads_pages
                         if (typesLoadToDelete != null)
                         {
                             Context.TypesLoads.Remove(typesLoadToDelete);
-                            Context.SaveChanges();
+                            try
+                            {
+                                Context.SaveChanges();
+                            }
+                            catch (Exception ex) 
+                            {
+                                MessageBox.Show(ex.Message);
+                            }
                             MessageBox.Show("Удаление прошло успешно");
                             formWindow.Close();
                             Scripts.EnableAllButtons();

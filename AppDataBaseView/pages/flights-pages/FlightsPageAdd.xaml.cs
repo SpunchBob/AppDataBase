@@ -63,7 +63,14 @@ namespace AppDataBaseView.pages.FlightsPages
                             EmployeeCode = emp.EmployeeLink.EmployeeCode,
                         }
                     );
-                Context.SaveChanges();
+                try
+                {
+                    Context.SaveChanges();
+                }
+                catch (Exception ex) 
+                {
+                    MessageBox.Show("ОШИБКА ДОБАВЛЕНИЯ");
+                }
                 System.Windows.MessageBox.Show("Добавление прошло успешно");
                 formWindow.Close();
                 Scripts.EnableAllButtons();

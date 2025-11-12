@@ -27,7 +27,7 @@ namespace AppDataBaseView
             InitializeComponent();
             this.Closed += OnClose;
             this.Height = 600;
-            this.Width = 440;
+            this.Width = 600;
         }
 
         public static FormWindow getInstance()

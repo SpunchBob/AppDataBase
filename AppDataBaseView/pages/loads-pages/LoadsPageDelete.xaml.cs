@@ -64,7 +64,14 @@ namespace AppDataBaseView.pages.loads_pages
                         if (loadWithFlights != null)
                         {
                             Context.Loads.Remove(loadWithFlights);
-                            Context.SaveChanges();
+                            try
+                            {
+                                Context.SaveChanges();
+                            }
+                            catch (Exception ex) 
+                            {
+                                MessageBox.Show(ex.Message);
+                            }
 
                             MessageBox.Show("Груз успешно удален");
                             formWindow.Close();

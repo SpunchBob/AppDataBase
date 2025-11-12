@@ -5,267 +5,289 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:AppDataBaseView.pages.FlightsPages"
       mc:Ignorable="d" 
-      d:DesignHeight="600" d:DesignWidth="440"
+      d:DesignHeight="600" d:DesignWidth="600"
       Title="FlightsPageChange">
 
     <Page.Resources>
-
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/pages/Styles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
-
     </Page.Resources>
 
-    <Grid>
-
+    <Grid Margin="15">
         <Grid.RowDefinitions>
-
-            <RowDefinition Height="40"/>
-            <RowDefinition/>
-
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="1">
+        <!-- Заголовок -->
+        <Border Grid.Row="0" 
+                Background="{StaticResource PrimaryBlueBrush}" 
+                BorderBrush="{StaticResource BorderBlueBrush}" 
+                BorderThickness="1"
+                CornerRadius="2"
+                Margin="0,0,0,15">
+            <TextBlock Text="ИЗМЕНЕНИЕ ПЕРЕВОЗКИ" 
+                       Foreground="White" 
+                       FontWeight="SemiBold"
+                       FontSize="14"
+                       HorizontalAlignment="Center"
+                       Padding="10,8"/>
+        </Border>
 
-            <Grid.ColumnDefinitions>
-
-                <ColumnDefinition Width="420"/>
-                <ColumnDefinition/>
-
-            </Grid.ColumnDefinitions>
-
-            <Grid Grid.Column="0">
-
-                <Grid.RowDefinitions>
-
-                    <RowDefinition Height="36"/>
-                    <RowDefinition Height="36"/>
-                    <RowDefinition Height="36"/>
-                    <RowDefinition Height="36"/>
-                    <RowDefinition Height="36"/>
-                    <RowDefinition Height="36"/>
-                    <RowDefinition Height="36"/>
-                    <RowDefinition Height="36"/>
-                    <RowDefinition Height="36"/>
-                    <RowDefinition Height="36"/>
-                    <RowDefinition Height="36"/>
-                    <RowDefinition Height="64"/>
-                    <RowDefinition Height="64"/>
-                    <RowDefinition/>
-
-                </Grid.RowDefinitions>
-                <ComboBox  
-    Style="{StaticResource DBeaverComboBox}"
-                 SelectionChanged="FlightsComboBox_SelctionChanged"
-    Grid.Row="0"
-    x:Name="employees_cb"
-    Width="200"
-    Height="28"
-    VerticalAlignment="Center"
-    HorizontalAlignment="Left"
-                 Margin="8, 0, 0, 0" Cursor="Hand"
-/>
-
-                <Label Style="{StaticResource DBeaverLabel}"
-            Grid.Row="1"
-            Content="Код заказчика "
-            HorizontalAlignment="Left"
-            VerticalAlignment="Center"
-            Margin="10, 0, 0, 0"
-                       IsEnabled="False"
-            />
-
-                <TextBox Style="{StaticResource DBeaverTextBox}"
-            Grid.Row="1"
-            x:Name="code_tb"
-            Width="200"
-            Height="28"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Right"
-            />
-
-                <Label Style="{StaticResource DBeaverLabel}"
-                Grid.Row="2"
-                Content="Заказчик: "
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Margin="10, 0, 0, 0"
-                />
-
-                <TextBox Style="{StaticResource DBeaverTextBox}"
-                Grid.Row="2"
-                x:Name="customer_tb"
-                Width="200"
-                Height="28"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Right"
-                />
-
-                <Label Style="{StaticResource DBeaverLabel}"
-                Grid.Row="3"
-                Content="Откуда: "
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Margin="10, 0, 0, 0"
-            />
-
-                <TextBox Style="{StaticResource DBeaverTextBox}"
-                Grid.Row="3"
-                x:Name="from_tb"
-                Width="200"
-                Height="28"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Right"
-                />
-
-                <Label Style="{StaticResource DBeaverLabel}"
-                Grid.Row="4"
-                Content="Куда: "
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Margin="10, 0, 0, 0"
-            />
-
-            <TextBox Style="{StaticResource DBeaverTextBox}"
-                Grid.Row="4"
-                x:Name="Where_tb"
-                Width="200"
-                Height="28"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Right"
-            />
-
-                <Label Style="{StaticResource DBeaverLabel}"
-                Grid.Row="5"
-                Content="Дата отправления: "
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Margin="10, 0, 0, 0"
-            />
-
-                <DatePicker Style="{StaticResource DBeaverDatePickerMinimal}"
-                Grid.Row="5"
-                x:Name="send_date_tb"
-                Width="200"
-                Height="28"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Right"
-            />
-
-                <Label Style="{StaticResource DBeaverLabel}"
-                Grid.Row="6"
-                Content="Дата прибытия: "
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Margin="10, 0, 0, 0"
-            />
-
-                <DatePicker Style="{StaticResource DBeaverDatePickerMinimal}"
-                Grid.Row="6"
-                x:Name="arve_date_tb"
-                Width="200"
-                Height="28"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Right"
-            />
-
-                <Label Style="{StaticResource DBeaverLabel}"
-                Grid.Row="7"
-                Content="Код груза: "
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Margin="10, 0, 0, 0"
-            />
-
+        <!-- Выбор перевозки -->
+        <GroupBox Grid.Row="1"
+                  Header="ВЫБОР ПЕРЕВОЗКИ" 
+                  Style="{StaticResource DBeaverGroupBox}"
+                  Margin="0,0,0,15">
+            <Grid Margin="0,8">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
                 <ComboBox Style="{StaticResource DBeaverComboBox}"
-                Grid.Row="7"
-                x:Name="load_code_cb"
-                Width="200"
-                Height="28"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Right"
-            />
+                          x:Name="employees_cb"
+                          Height="28"
+                          VerticalAlignment="Center"
+                          SelectionChanged="FlightsComboBox_SelctionChanged"
+                          Cursor="Hand"/>
+                <TextBlock Grid.Column="2"
+                           Text="▼"
+                           Foreground="{StaticResource PrimaryBlueBrush}"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           Margin="0,0,5,0"/>
+            </Grid>
+        </GroupBox>
 
-                <Label Style="{StaticResource DBeaverLabel}"
-                Grid.Row="8"
-                Content="Цена: "
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Margin="10, 0, 0, 0"
-            />
+        <!-- Основная форма -->
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="0,10">
+                <!-- Информация о заказчике -->
+                <GroupBox Header="ИНФОРМАЦИЯ О ЗАКАЗЧИКЕ" 
+                          Style="{StaticResource DBeaverGroupBox}"
+                          Margin="0,0,0,15">
+                    <StackPanel Margin="0,8">
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Style="{StaticResource DBeaverLabel}"
+                                   Content="Код заказчика:"
+                                   VerticalAlignment="Center"/>
+                            <TextBox Style="{StaticResource DBeaverTextBox}"
+                                     x:Name="code_tb"
+                                     Grid.Column="1"
+                                     Height="28"
+                                     VerticalAlignment="Center"
+                                     IsEnabled="False"
+                                     Background="#F5F5F5"/>
+                        </Grid>
 
-                <TextBox Style="{StaticResource DBeaverTextBox}"
-                Grid.Row="8"
-                x:Name="price_tb"
-                Width="200"
-                Height="28"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Right"
-            />
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Style="{StaticResource DBeaverLabel}"
+                                   Content="Заказчик:"
+                                   VerticalAlignment="Center"/>
+                            <TextBox Style="{StaticResource DBeaverTextBox}"
+                                     x:Name="customer_tb"
+                                     Grid.Column="1"
+                                     Height="28"
+                                     VerticalAlignment="Center"/>
+                        </Grid>
+                    </StackPanel>
+                </GroupBox>
 
-                <CheckBox Style="{StaticResource DBeaverCheckBox}"
-                Grid.Row="9"
-                x:Name="is_bought_rb"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Content="Отметка об оплате"
-                Margin="10, 0, 0, 0"
-                />
+                <!-- Маршрут -->
+                <GroupBox Header="МАРШРУТ" 
+                          Style="{StaticResource DBeaverGroupBox}"
+                          Margin="0,0,0,15">
+                    <StackPanel Margin="0,8">
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Style="{StaticResource DBeaverLabel}"
+                                   Content="Откуда:"
+                                   VerticalAlignment="Center"/>
+                            <TextBox Style="{StaticResource DBeaverTextBox}"
+                                     x:Name="from_tb"
+                                     Grid.Column="1"
+                                     Height="28"
+                                     VerticalAlignment="Center"/>
+                        </Grid>
 
-                <CheckBox Style="{StaticResource DBeaverCheckBox}"
-                Grid.Row="10"
-                x:Name="is_refund_rb"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Content="Отметка об возврате"
-                Margin="10, 0, 0, 0"
-                />
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Style="{StaticResource DBeaverLabel}"
+                                   Content="Куда:"
+                                   VerticalAlignment="Center"/>
+                            <TextBox Style="{StaticResource DBeaverTextBox}"
+                                     x:Name="Where_tb"
+                                     Grid.Column="1"
+                                     Height="28"
+                                     VerticalAlignment="Center"/>
+                        </Grid>
+                    </StackPanel>
+                </GroupBox>
 
-                <Label Style="{StaticResource DBeaverLabel}"
-                Grid.Row="11"
-                Content="Код сотрудника: "
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Margin="10, 0, 0, 0"
-            />
+                <!-- Даты -->
+                <GroupBox Header="ДАТЫ" 
+                          Style="{StaticResource DBeaverGroupBox}"
+                          Margin="0,0,0,15">
+                    <StackPanel Margin="0,8">
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Style="{StaticResource DBeaverLabel}"
+                                   Content="Дата отправления:"
+                                   VerticalAlignment="Center"/>
+                            <DatePicker Style="{StaticResource DBeaverDatePickerMinimal}"
+                                        x:Name="send_date_tb"
+                                        Grid.Column="1"
+                                        Height="28"
+                                        VerticalAlignment="Center"/>
+                        </Grid>
 
-                <ComboBox Style="{StaticResource DBeaverComboBox}"
-                Grid.Row="11"
-                x:Name="employee_code_cb"
-                Width="200"
-                Height="28"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Right"
-            />
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Style="{StaticResource DBeaverLabel}"
+                                   Content="Дата прибытия:"
+                                   VerticalAlignment="Center"/>
+                            <DatePicker Style="{StaticResource DBeaverDatePickerMinimal}"
+                                        x:Name="arve_date_tb"
+                                        Grid.Column="1"
+                                        Height="28"
+                                        VerticalAlignment="Center"/>
+                        </Grid>
+                    </StackPanel>
+                </GroupBox>
 
-                <Grid Grid.Row="11">
+                <!-- Детали перевозки -->
+                <GroupBox Header="ДЕТАЛИ ПЕРЕВОЗКИ" 
+                          Style="{StaticResource DBeaverGroupBox}"
+                          Margin="0,0,0,15">
+                    <StackPanel Margin="0,8">
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Style="{StaticResource DBeaverLabel}"
+                                   Content="Код груза:"
+                                   VerticalAlignment="Center"/>
+                            <ComboBox Style="{StaticResource DBeaverComboBox}"
+                                      x:Name="load_code_cb"
+                                      Grid.Column="1"
+                                      Height="28"
+                                      VerticalAlignment="Center"/>
+                        </Grid>
 
-                    <Grid.ColumnDefinitions>
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Style="{StaticResource DBeaverLabel}"
+                                   Content="Цена:"
+                                   VerticalAlignment="Center"/>
+                            <TextBox Style="{StaticResource DBeaverTextBox}"
+                                     x:Name="price_tb"
+                                     Grid.Column="1"
+                                     Height="28"
+                                     VerticalAlignment="Center"/>
+                        </Grid>
 
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Style="{StaticResource DBeaverLabel}"
+                                   Content="Код сотрудника:"
+                                   VerticalAlignment="Center"/>
+                            <ComboBox Style="{StaticResource DBeaverComboBox}"
+                                      x:Name="employee_code_cb"
+                                      Grid.Column="1"
+                                      Height="28"
+                                      VerticalAlignment="Center"/>
+                        </Grid>
+                    </StackPanel>
+                </GroupBox>
 
-                    </Grid.ColumnDefinitions>
+                <!-- Статусы -->
+                <GroupBox Header="СТАТУСЫ" 
+                          Style="{StaticResource DBeaverGroupBox}"
+                          Margin="0,0,0,15">
+                    <StackPanel Margin="0,8">
+                        <CheckBox Style="{StaticResource DBeaverCheckBox}"
+                                  x:Name="is_bought_rb"
+                                  Content="Отметка об оплате"
+                                  Margin="10,4"/>
+                        <CheckBox Style="{StaticResource DBeaverCheckBox}"
+                                  x:Name="is_refund_rb"
+                                  Content="Отметка об возврате"
+                                  Margin="10,4"/>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+        </ScrollViewer>
 
-                </Grid>
+        <!-- Панель действий -->
+        <Border Grid.Row="3" 
+                Background="{StaticResource LightBlueBrush}"
+                BorderBrush="{StaticResource BorderBlueBrush}"
+                BorderThickness="0,1,0,0"
+                Margin="0,10,0,0"
+                Padding="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
                 <Button Style="{StaticResource DBeaverButton}"
-                    x:Name="change_btn"
-                    Content="Изменить"
-                    Width="382"
-                    Height="40"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center" Grid.Row="12" Click="change_btn_Click"/>
-
-                <Label Style="{StaticResource DBeaverLabel}" x:Name="info_lb" Grid.Row="13" FontSize="16"
-                           VerticalAlignment="Center" HorizontalAlignment="Center"
-                           VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-
+                        x:Name="change_btn"
+                        Grid.Column="1"
+                        Content="Изменить"
+                        Width="120"
+                        Height="35"
+                        Cursor="Hand" 
+                        Click="change_btn_Click"/>
             </Grid>
+        </Border>
 
-        </Grid>
-
+        <!-- Информационная метка -->
+        <Label x:Name="info_lb" 
+               Grid.Row="2"
+               Grid.RowSpan="2"
+               FontSize="14"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+               Margin="0,0,0,60"
+               Background="#E8F4FD"
+               Padding="10,5"
+               BorderBrush="{StaticResource BorderBlueBrush}"
+               BorderThickness="1"
+               Visibility="Collapsed"/>
     </Grid>
 </Page>

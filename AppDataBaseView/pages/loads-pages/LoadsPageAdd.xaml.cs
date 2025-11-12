@@ -50,7 +50,14 @@ namespace AppDataBaseView.pages.loads_pages
                         LoadTypeCode = item.LoadTypeLink.LoadTypeCode
                     }
                 );
-                Context.SaveChanges();
+                try
+                {
+                    Context.SaveChanges();
+                }
+                catch (Exception ex) 
+                {
+                    MessageBox.Show("ОШИБКА ДОБАВЛЕНИЯ");
+                }
                 MessageBox.Show("Добавление прошло успешно");
                 formWindow.Close();
                 Scripts.EnableAllButtons();

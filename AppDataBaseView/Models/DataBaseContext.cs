@@ -27,7 +27,7 @@ public partial class DataBaseContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlite("Data Source=C:\\Users\\Шура\\Desktop\\C#\\TransportDBLite\\TransportDBLite\\bin\\Debug\\net8.0-windows\\main_db.sqlite");
+        => optionsBuilder.UseSqlite("Data Source=C:\\Users\\User\\Desktop\\C#\\AppDataBase\\AppDataBaseView\\main_db.sqlite");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

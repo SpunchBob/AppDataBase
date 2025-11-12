@@ -77,7 +77,14 @@ namespace AppDataBaseView.pages.types_auto_pages
                         if (typesAutoToDelete != null)
                         {
                             Context.TypesAutos.Remove(typesAutoToDelete);
-                            Context.SaveChanges();
+                            try
+                            {
+                                Context.SaveChanges();
+                            }
+                            catch (Exception ex) 
+                            {
+                                MessageBox.Show(ex.Message);
+                            }
 
                             MessageBox.Show("Тип авто успешно удален");
                             formWindow.Close();

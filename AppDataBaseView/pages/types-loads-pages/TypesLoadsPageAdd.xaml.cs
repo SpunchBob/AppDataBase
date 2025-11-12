@@ -46,7 +46,14 @@ namespace AppDataBaseView.pages.types_loads_pages
                     AutoTypeCode = item.TypeLoadLink.AutoTypeCode,
                 }
                 );
-            Context.SaveChanges();
+            try
+            {
+                Context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ОШИБКА ДОБАВЛЕНИЯ");
+            }
             MessageBox.Show("Добавление прошло успешно");
             formWindow.Close();
             Scripts.EnableAllButtons();

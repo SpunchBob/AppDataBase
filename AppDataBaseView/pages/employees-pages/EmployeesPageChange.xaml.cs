@@ -110,7 +110,14 @@ namespace AppDataBaseView.pages.EmployeesPages
                         Position = Convert.ToInt32(position_code_cb.SelectedItem)
                     }
                     );
-                Context.SaveChanges();
+                try
+                {
+                    Context.SaveChanges();
+                }
+                catch (Exception ex) 
+                {
+                    MessageBox.Show(ex.Message);
+                }
                 System.Windows.MessageBox.Show("Изменение прошло успешно");
                 formWindow.Close();
                 Scripts.EnableAllButtons();

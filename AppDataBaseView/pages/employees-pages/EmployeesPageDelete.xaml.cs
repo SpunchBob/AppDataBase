@@ -84,7 +84,15 @@ namespace AppDataBaseView.pages.EmployeesPages
                         if (employeeWithFlights != null)
                         {
                             Context.Employees.Remove(employeeWithFlights);
-                            Context.SaveChanges();
+
+                            try
+                            {
+                                Context.SaveChanges();
+                            }
+                            catch (Exception ex) 
+                            {
+                                MessageBox.Show(ex.Message);
+                            }
 
                             MessageBox.Show("Сотрудник успешно удален");
                             formWindow.Close();

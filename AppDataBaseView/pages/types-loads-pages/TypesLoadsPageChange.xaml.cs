@@ -68,7 +68,14 @@ namespace AppDataBaseView.pages.types_loads_pages
                     Describe = describe_tb.Text,
                     AutoTypeCode = item.TypeAutoLink.AutoTypeCode,
                 });
-            Context.SaveChanges();
+            try
+            {
+                Context.SaveChanges();
+            }
+            catch (Exception ex) 
+            {
+                MessageBox.Show(ex.Message);
+            }
             MessageBox.Show("Изменение прошло успешно");
             formWindow.Close();
             Scripts.EnableAllButtons();

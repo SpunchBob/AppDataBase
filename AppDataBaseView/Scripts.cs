@@ -260,7 +260,7 @@ namespace AppDataBaseView
             FormWindow window = FormWindow.getInstance();
 
             window.Width = 440;
-            window.Height = 200;
+            window.Height = 260;
 
             Grid grid = new Grid()
             {
@@ -307,7 +307,7 @@ namespace AppDataBaseView
             FormWindow window = FormWindow.getInstance();
 
             window.Height = 600;
-            window.Width = 440;
+            window.Width = 800;
 
             Grid grid = new Grid()
             {
